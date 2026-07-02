@@ -1,0 +1,14 @@
+part 1
+Q1. When I type google.com into my browser and press Enter, several things happen behind the scenes in just a few seconds.
+
+First, my browser asks the DNS (Domain Name System) to find the IP address of google.com because computers communicate using numbers, not website names.
+
+Once the IP address is found, my request travels across the internet to Google's servers. Before the request reaches the website, it usually passes through a firewall, which acts like a security guard by checking that the request is safe and blocking anything suspicious.
+
+Next, the request may go through a load balancer, which works like a traffic conductor. If many people are visiting Google at the same time, the load balancer decides which server should handle my request so that no single server becomes overloaded.
+
+The request then reaches the web server, which receives it. If the page requires processing, the web server passes the request to the application server. The application server contains the website's business logic and decides what needs to happen next. If information needs to be retrieved, such as search results or account details, it communicates with the database.
+
+The database sends the requested information back to the application server, which processes it and sends it to the web server. Finally, the web server returns the completed webpage to my browser, and the page appears on my screen.
+
+Although all these steps happen in the background, they usually take only a fraction of a second.
