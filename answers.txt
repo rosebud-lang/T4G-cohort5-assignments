@@ -12,3 +12,9 @@ The request then reaches the web server, which receives it. If the page requires
 The database sends the requested information back to the application server, which processes it and sends it to the web server. Finally, the web server returns the completed webpage to my browser, and the page appears on my screen.
 
 Although all these steps happen in the background, they usually take only a fraction of a second.
+A client is a device or application that requests information or services from another computer over the internet.
+A server is a computer that receives those requests, processes them, and sends back the requested information.
+For example:
+•	If I open YouTube on my laptop, my laptop and browser are the client because they are requesting videos. 
+•	Google's YouTube servers are the servers because they store the videos and send them back to my browser. 
+In summary, the client asks, while the server answers.
