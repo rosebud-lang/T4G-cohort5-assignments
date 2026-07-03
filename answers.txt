@@ -18,3 +18,8 @@ For example:
 •	If I open YouTube on my laptop, my laptop and browser are the client because they are requesting videos. 
 •	Google's YouTube servers are the servers because they store the videos and send them back to my browser. 
 In summary, the client asks, while the server answers.
+Q3. DNS (Domain Name System) is like the internet's phonebook.
+
+People prefer remembering names like google.com instead of long numbers called IP addresses. DNS translates a website name into its IP address so that computers know where to find the website.
+
+Without DNS, we would have to remember the IP address of every website we wanted to visit, which would be very difficult.
