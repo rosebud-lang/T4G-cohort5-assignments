@@ -23,3 +23,7 @@ Q3. DNS (Domain Name System) is like the internet's phonebook.
 People prefer remembering names like google.com instead of long numbers called IP addresses. DNS translates a website name into its IP address so that computers know where to find the website.
 
 Without DNS, we would have to remember the IP address of every website we wanted to visit, which would be very difficult.
+Q4. A firewall protects a server by checking incoming and outgoing network traffic. It blocks harmful or unauthorized requests while allowing safe ones through. It is mainly responsible for security.
+A load balancer distributes incoming requests across multiple servers so that no single server becomes too busy. This helps websites stay fast and available even when many people are using them at the same time.
+The main difference is that a firewall focuses on protecting the system, while a load balancer focuses on sharing work efficiently among servers to avoid system crash. 
+
