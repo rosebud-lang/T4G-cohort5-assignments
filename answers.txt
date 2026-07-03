@@ -12,4 +12,3 @@ The request then reaches the web server, which receives it. If the page requires
 The database sends the requested information back to the application server, which processes it and sends it to the web server. Finally, the web server returns the completed webpage to my browser, and the page appears on my screen.
 
 Although all these steps happen in the background, they usually take only a fraction of a second.
-QUESTION 2
