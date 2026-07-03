@@ -77,3 +77,12 @@ Example:/home/rosebud/parent_dir/child2/file.txt  whilst
 A relative path is a path that starts from the current working directory. It depends on where you are currently located in the system.
 Example (Relative path):
 If you are in /home/rosebud/documents/, then: projects/file.txt
+
+Q11: Response to a friend who prefers File Explorer/Finder over Command Line Interface(CLI)
+File Explorer or Finder is useful for simple tasks like viewing, moving, and deleting files. However, the command line is more powerful and efficient, especially for technical work.
+With the CLI, you can:
+•	Perform tasks faster with fewer steps
+•	Automate repetitive processes
+•	Work on remote servers where there is no graphical interface
+•	Gain better control over system operations
+So while GUI tools are beginner-friendly, the CLI is essential for backend development and professional computing.
