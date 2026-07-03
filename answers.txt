@@ -71,3 +71,9 @@ Q9. Backend developers use the command line because many server-side tasks are d
 •	Work on remote servers (which often have no GUI)
 •	Automate repetitive tasks using scripts
 Overall, the command line provides faster, more powerful, and professional control over system operations compared to graphical tools.
+
+Q10. An absolute path is the full path to a file or folder starting from the root directory (/). It shows the complete location regardless of the current working directory. It starts from the root directory / and follows the full directory structure to the file.
+Example:/home/rosebud/parent_dir/child2/file.txt  whilst 
+A relative path is a path that starts from the current working directory. It depends on where you are currently located in the system.
+Example (Relative path):
+If you are in /home/rosebud/documents/, then: projects/file.txt
