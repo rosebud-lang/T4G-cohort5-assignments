@@ -62,6 +62,4 @@ browser   domain     allows safe   traffic         web content      logic &     
 sends     name to    traffic                        (HTML/API)       processing      records request
 request    IP
 
-Database --> Application Server --> Web Server --> Load Balancer --> Firewall --> DNS --> Client
-           (sends results back through same path in reverse)
 
