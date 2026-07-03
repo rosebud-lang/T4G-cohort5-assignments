@@ -56,8 +56,7 @@ In simple terms: the frontend is like the receptionist who welcomes you and coll
 
 PART 2
 Client --> DNS --> Firewall --> Load Balancer --> Web Server --> Application Server --> Database
-  |         |         |              |                |                 |               |
-  |         |         |              |                |                 |               |
+      
 User      Converts   Blocks/       Distributes     Handles          Runs business   Stores data
 browser   domain     allows safe   traffic         web content      logic &         & retrieves
 sends     name to    traffic                        (HTML/API)       processing      records request
