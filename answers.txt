@@ -27,3 +27,9 @@ Q4. A firewall protects a server by checking incoming and outgoing network traff
 A load balancer distributes incoming requests across multiple servers so that no single server becomes too busy. This helps websites stay fast and available even when many people are using them at the same time.
 The main difference is that a firewall focuses on protecting the system, while a load balancer focuses on sharing work efficiently among servers to avoid system crash. 
 
+
+Q5. A web server is responsible for receiving requests from users and delivering static content such as HTML pages, CSS files, JavaScript files, and images. If a request requires processing, such as logging in or retrieving user information, the web server passes it to the application server.
+An application server is responsible for handling the backend logic of a website. It processes user requests, runs the backend code, communicates with the database, and sends the appropriate response back to the web server, which then returns it to the client.
+Backend developers work more with the application server because it is where they write and manage the code that powers the website's functionality. For example, when a user logs in, registers an account, makes a payment, or retrieves information from a database, the application server is responsible for carrying out these tasks.
+In simple terms: the web server is like a receptionist who receives visitors and directs them where to go, while the application server is like the office staff who do the actual work behind the scenes.
+
