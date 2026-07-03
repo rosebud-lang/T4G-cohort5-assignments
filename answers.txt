@@ -63,3 +63,11 @@ sends     name to    traffic                        (HTML/API)       processing 
 request    IP
 
 
+PART 3
+Q9. Backend developers use the command line because many server-side tasks are done without graphical interfaces. The CLI allows them to:
+•	Manage files and directories efficiently
+•	Install and run software packages
+•	Start and stop servers
+•	Work on remote servers (which often have no GUI)
+•	Automate repetitive tasks using scripts
+Overall, the command line provides faster, more powerful, and professional control over system operations compared to graphical tools.
