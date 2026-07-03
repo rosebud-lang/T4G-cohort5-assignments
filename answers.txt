@@ -86,3 +86,10 @@ With the CLI, you can:
 •	Work on remote servers where there is no graphical interface
 •	Gain better control over system operations
 So while GUI tools are beginner-friendly, the CLI is essential for backend development and professional computing.
+
+Q12: Meaning of ~ and $ in the terminal
+The ~ symbol represents the home directory of the current user. It is a shortcut to the user’s main folder.
+Example: cd ~  , This takes you to /home/username.
+
+The $ symbol represents a normal (non-root) user or a regular user in the terminal prompt. It shows that the currently logged-in user has standard user privileges (not administrator/root access).
+Example: rosebud@linux:~$
