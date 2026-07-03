@@ -54,3 +54,14 @@ If I were building the login feature of a website, the backend would be responsi
 For example, when you log into your University of Ghana MIS Web or the MTN MoMo app, you only enter your username and password on the login page (the frontend). The backend then securely checks your credentials in the database. If they are correct, it grants you access to your account. If they are incorrect, it returns an error message such as "Invalid username or password."
 In simple terms: the frontend is like the receptionist who welcomes you and collects your information, while the backend is like the office staff who verify your details and decide whether you should be allowed access. The receptionist doesn't make the final decision—the office staff do.
 
+PART 2
+Client --> DNS --> Firewall --> Load Balancer --> Web Server --> Application Server --> Database
+  |         |         |              |                |                 |               |
+  |         |         |              |                |                 |               |
+User      Converts   Blocks/       Distributes     Handles          Runs business   Stores data
+browser   domain     allows safe   traffic         web content      logic &         & retrieves
+sends     name to    traffic                        (HTML/API)       processing      records request
+request    IP
+
+Database --> Application Server --> Web Server --> Load Balancer --> Firewall --> DNS --> Client
+           (sends results back through same path in reverse)
