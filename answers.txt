@@ -33,3 +33,13 @@ An application server is responsible for handling the backend logic of a website
 Backend developers work more with the application server because it is where they write and manage the code that powers the website's functionality. For example, when a user logs in, registers an account, makes a payment, or retrieves information from a database, the application server is responsible for carrying out these tasks.
 In simple terms: the web server is like a receptionist who receives visitors and directs them where to go, while the application server is like the office staff who do the actual work behind the scenes.
 
+Q6. The client never communicates directly with the database because it would create serious security risks. If users could access the database directly, they might accidentally or intentionally view, change, or delete important information without permission.
+Instead, the client sends its request to the application server, which acts as a middleman between the client and the database. The application server first checks whether the request is valid and whether the user is authorized to perform the requested action. Only then does it communicate with the database.
+Having an application server between the client and the database has several benefits:
+•	It keeps the database secure from unauthorized access. 
+•	It checks whether users have permission to perform certain actions, such as viewing or editing information. 
+•	It validates user input to reduce errors and prevent harmful data from being stored. 
+•	It applies the application's business rules before interacting with the database. 
+•	It prevents users from accessing sensitive information directly. 
+For example, imagine you want to check your MTN MoMo account balance. You don't connect directly to MTN's database. Instead, you log in through the MoMo app. The app sends your request to the application server, which first verifies your username and password. If your login details are correct, the application server retrieves your account balance from the database and sends it back to your phone. This process ensures that only you can access your account information and that the database remains protected.
+In simple terms: think of the application server as a bank teller. You don't walk into the bank's vault to collect your money. Instead, you ask the teller, who verifies your identity, retrieves the information or money from the vault, and safely gives it to you. In the same way, the application server safely handles communication between the client and the database.
