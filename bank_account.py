@@ -15,3 +15,17 @@ class BankAccount:
 
         self.balance += amount
         print(f"GHS {amount:.2f} deposited successfully.")
+
+
+
+    def withdraw(self, amount):
+        """Removes money from the account balance."""
+
+        if amount <= 0:
+            raise ValueError("Withdrawal amount must be greater than zero.")
+
+        if amount > self.balance:
+            raise ValueError("Insufficient balance.")
+
+        self.balance -= amount
+        print(f"GHS {amount:.2f} withdrawn successfully.")
