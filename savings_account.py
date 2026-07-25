@@ -20,3 +20,9 @@ class SavingsAccount(BankAccount):
     def __str__(self):
         """Returns a readable description of the savings account."""
         return f"SavingsAccount[{self.name}] | Balance: GHS {self.balance:.2f} | Rate: {self.interest_rate}%"
+
+
+
+# Create a SavingsAccount
+rose_savings = SavingsAccount("Rosebud Awuah", 1000, 5)
+
