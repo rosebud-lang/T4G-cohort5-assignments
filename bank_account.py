@@ -41,26 +41,23 @@ class BankAccount:
 
 
 if __name__ == "__main__":
+
     # Instantiation - creating two BankAccount objects
     rose_account = BankAccount("Rosebud Awuah", 1000)
-    ama_account = BankAccount("Ama Owusu", 500) 
+    ama_account = BankAccount("Ama Owusu", 500)
 
-#Transactions
-rose_account.deposit(300)
-rose_account.withdraw(200)
-ama_account.deposit(250)
+    # Transactions
+    rose_account.deposit(300)
+    rose_account.withdraw(200)
+    ama_account.deposit(250)
 
+    # Print each account
+    print(rose_account)
+    print(ama_account)
 
-print(rose_account)
-print(ama_account)
+    # Attempt a withdrawal that should fail
+    try:
+        ama_account.withdraw(1000)
 
-
-
-
-
-# Attempt a withdrawal that should fail
-try:
-    ama_account.withdraw(1000)
-
-except ValueError as error:
-    print(f"Transaction failed: {error}")
+    except ValueError as error:
+        print(f"Transaction failed: {error}")
