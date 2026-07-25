@@ -16,3 +16,7 @@ class SavingsAccount(BankAccount):
         self.deposit(interest)
 
         print(f"Interest of GHS {interest:.2f} applied.")
+
+    def __str__(self):
+        """Returns a readable description of the savings account."""
+        return f"SavingsAccount[{self.name}] | Balance: GHS {self.balance:.2f} | Rate: {self.interest_rate}%"
