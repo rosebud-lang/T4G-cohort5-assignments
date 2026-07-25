@@ -40,12 +40,10 @@ class BankAccount:
 
 
 
-
-
-
-# Instantiation - creating two BankAccount objects
-rose_account = BankAccount("Rosebud Awuah", 1000)
-ama_account = BankAccount("Ama Owusu", 500)
+if __name__ == "__main__":
+    # Instantiation - creating two BankAccount objects
+    rose_account = BankAccount("Rosebud Awuah", 1000)
+    ama_account = BankAccount("Ama Owusu", 500) 
 
 #Transactions
 rose_account.deposit(300)
