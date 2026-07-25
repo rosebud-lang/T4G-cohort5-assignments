@@ -29,3 +29,7 @@ class BankAccount:
 
         self.balance -= amount
         print(f"GHS {amount:.2f} withdrawn successfully.")
+
+    def get_balance(self):
+        """Returns the current account balance."""
+        return self.balance
