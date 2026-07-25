@@ -55,3 +55,14 @@ ama_account.deposit(250)
 
 print(rose_account)
 print(ama_account)
+
+
+
+
+
+# Attempt a withdrawal that should fail
+try:
+    ama_account.withdraw(1000)
+
+except ValueError as error:
+    print(f"Transaction failed: {error}")
