@@ -37,3 +37,12 @@ class BankAccount:
     def __str__(self):
         """Returns a readable description of the account."""
         return f"Account[{self.name}] | Balance: GHS {self.balance:.2f}"
+
+
+
+
+
+
+# Instantiation - creating two BankAccount objects
+rose_account = BankAccount("Rosebud Awuah", 1000)
+ama_account = BankAccount("Ama Owusu", 500)
