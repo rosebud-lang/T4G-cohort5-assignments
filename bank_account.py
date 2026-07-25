@@ -33,3 +33,7 @@ class BankAccount:
     def get_balance(self):
         """Returns the current account balance."""
         return self.balance
+
+    def __str__(self):
+        """Returns a readable description of the account."""
+        return f"Account[{self.name}] | Balance: GHS {self.balance:.2f}"
