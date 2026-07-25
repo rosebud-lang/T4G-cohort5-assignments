@@ -46,3 +46,8 @@ class BankAccount:
 # Instantiation - creating two BankAccount objects
 rose_account = BankAccount("Rosebud Awuah", 1000)
 ama_account = BankAccount("Ama Owusu", 500)
+
+#Transactions
+rose_account.deposit(300)
+rose_account.withdraw(200)
+ama_account.deposit(250)
