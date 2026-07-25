@@ -51,3 +51,7 @@ ama_account = BankAccount("Ama Owusu", 500)
 rose_account.deposit(300)
 rose_account.withdraw(200)
 ama_account.deposit(250)
+
+
+print(rose_account)
+print(ama_account)
