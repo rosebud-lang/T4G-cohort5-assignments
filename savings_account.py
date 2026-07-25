@@ -29,3 +29,11 @@ rose_savings = SavingsAccount("Rosebud Awuah", 1000, 5)
 #Make two deposits
 rose_savings.deposit(500)
 rose_savings.deposit(200)
+
+rose_savings.apply_interest()
+
+print(rose_savings)
+
+rose_savings.withdraw(300)
+
+print(rose_savings)
