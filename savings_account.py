@@ -26,3 +26,6 @@ class SavingsAccount(BankAccount):
 # Create a SavingsAccount
 rose_savings = SavingsAccount("Rosebud Awuah", 1000, 5)
 
+#Make two deposits
+rose_savings.deposit(500)
+rose_savings.deposit(200)
