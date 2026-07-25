@@ -5,3 +5,13 @@ class BankAccount:
         """Initializes the account holder's name and starting balance."""
         self.name = name
         self.balance = balance
+
+
+    def deposit(self, amount):
+        """Adds money to the account balance."""
+
+        if amount <= 0:
+            raise ValueError("Deposit amount must be greater than zero.")
+
+        self.balance += amount
+        print(f"GHS {amount:.2f} deposited successfully.")
